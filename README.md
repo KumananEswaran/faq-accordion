@@ -1,22 +1,39 @@
-# Using the Figma design file
+# FAQ-Accordion: <a target="_blank" href="https://faq-challenge-frontend-mentor.netlify.app/">Visit Here</a>
+ 
+<a href="https://faq-challenge-frontend-mentor.netlify.app/" target="_blank">
+<img src="https://imgflip.com/gif/9ambgk" width="100%" alt="budget-app"/>
+</a>
+ 
+### FAQ ACCORDION - FRONTEND MENTOR CHALLENGE
 
-Using this design file will help you practice building projects in the same way professionals do. Seeing the details in the design will help you improve your accuracy when building projects and build projects faster.
+## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)
 
-[Figma](https://www.figma.com/) is an extremely popular design tool that has a generous free tier and can also be used on both Windows and Mac computers.
+The project is a responsive FAQ (Frequently Asked Questions) page, designed to provide an interactive, user-friendly experience for visitors. 
 
-To get started with Figma, [download the correct app for your operating system](https://www.figma.com/downloads/). You can then open the app and open the `.fig` design file by dragging it over the app and dropping it into the projects home screen.
+## What I'm Most Proud Of:
 
-If you're going to use the Desktop App, you don't need to download the Font Installer from the downloads page. But if you're planning on using the Figma web app you should download and install it to ensure the fonts show up correctly.
+Responsive Design: The FAQ section adjusts well to different screen sizes, ensuring a smooth experience on both mobile and desktop.
+Interactive Toggle: The FAQ answers toggle correctly with both mouse clicks and keyboard interactions, improving accessibility.
 
-If you haven't used Figma before, here are a couple of great resources to get you up to speed: 
+## What I'd Do Differently:
 
-- [“Everything Developers Need To Know About Figma” article on Smashing Magazine](https://www.smashingmagazine.com/2020/09/figma-developers-guide/)
-- ["Introduction to Figma for Developers" video with Ryan Warner and Jason Lengstorf on Learn with Jason](https://www.learnwithjason.dev/introduction-to-figma-for-developers)
+Refine Animations: Use max-height transitions for smoother answer expansion.
+JavaScript Scalability: Refactor the JavaScript to make it more dynamic and adaptable to additional FAQ items.
 
----
+## Challenges Encountered:
 
-**⚠️ IMPORTANT ⚠️: Please be sure not to share our design files with anyone else. We include `.gitignore` files in the starter code download to help prevent you from accidentally uploading it to GitHub. Another easy way to prevent this is to keep the design file separate from your codebase.**
+**Responsive Design:**
+Challenge: Ensuring the FAQ section looked good on different screen sizes was tricky, especially when adjusting widths and maintaining a clean layout for mobile and desktop views.
+Solution: I used CSS media queries to set dynamic widths and adjust the layout based on screen size. I referred to YouTube tutorials for best practices on responsive design and learned how to structure the container to scale properly across devices.
 
----
+**Interactive Toggle:**
+Challenge: Implementing the accordion-style toggle with smooth transitions while ensuring only one FAQ answer was visible at a time was difficult. I also wanted the toggle to work with both mouse clicks and keyboard interactions.
+Solution: I used JavaScript to add a click event listener to the buttons. I looked up accordion patterns in YouTube tutorials and applied them to toggle the class for visibility. To improve accessibility, I added keyboard support (e.g., Enter key), which I learned through ChatGPT's guidance.
 
-Thanks for being a PRO member. We hope you enjoy the challenge! 🙂
+**Using .focus() for Keyboard Interactivity:**
+Challenge: Making the first button focusable on page load, especially with dynamic content like FAQ sections, was tricky to implement correctly.
+Solution: I used the DOMContentLoaded event to ensure the button gained focus as soon as the page was loaded. To get the implementation right, I referred to YouTube tutorials on how to manage focus in interactive web elements, and I used ChatGPT to clarify the syntax and logic.
+
+
+
+
