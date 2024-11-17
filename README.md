@@ -1,7 +1,7 @@
 # FAQ-Accordion: <a target="_blank" href="https://faq-challenge-frontend-mentor.netlify.app/">Visit Here</a>
  
 <a href="https://faq-challenge-frontend-mentor.netlify.app/" target="_blank">
-<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY29nZGptcnlobzN0czNvMmtjeGRqeDNxZnV0dmVqdWpnanNsNncydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7lOKCW4cuuAoXCpzz0/giphy.gif" width="100%" alt="faq-accordion"/>
+<div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:41.67%;position:relative;"><iframe width="360" height="150" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/9ambgk"></iframe></div><p><a href="https://imgflip.com/gif/9ambgk">via Imgflip</a></p></div>
 </a>
  
 ### FAQ ACCORDION - FRONTEND MENTOR CHALLENGE
