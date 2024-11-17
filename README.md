@@ -13,11 +13,13 @@ The project is a responsive FAQ (Frequently Asked Questions) page, designed to p
 ## What I'm Most Proud Of:
 
 Responsive Design: The FAQ section adjusts well to different screen sizes, ensuring a smooth experience on both mobile and desktop.
+
 Interactive Toggle: The FAQ answers toggle correctly with both mouse clicks and keyboard interactions, improving accessibility.
 
 ## What I'd Do Differently:
 
 Refine Animations: Use max-height transitions for smoother answer expansion.
+
 JavaScript Scalability: Refactor the JavaScript to make it more dynamic and adaptable to additional FAQ items.
 
 ## Challenges Encountered:
